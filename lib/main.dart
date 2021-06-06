@@ -1,4 +1,4 @@
-import 'package:alem/screens/search/search.dart';
+import 'package:alem/screens/search.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Alem',
       theme: ThemeData(
-
         primarySwatch: Colors.blue,
       ),
       home: const SearchScreen(),
